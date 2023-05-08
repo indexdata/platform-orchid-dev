@@ -30,9 +30,6 @@ jobs:
       - name: Set yarn config for FOLIO modules
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
-      #- name: Add @indexdata/harvester-admin
-      #  run: yarn add https://github.com/indexdata/ui-harvester-admin#main
-        
       - name: Run yarn install
         run: yarn install --frozen-lockfile
 
