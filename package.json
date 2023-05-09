@@ -12,7 +12,7 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "lint": "eslint test/ui-testing",
-    "deploy": "sh -c 'find $0 -type f -exec gzip \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\; ; aws s3 sync ${0}/ s3://folio-dev-bundles/dev2 --acl public-read --content-encoding gzip --delete'" 
+    "deploy": "sh -c 'find $0 -type f -exec gzip \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\; ; aws s3 sync ${0}/ s3://folio-dev-bundles/dev2 --acl public-read --content-encoding gzip --delete'"
   },
   "dependencies": {
     "@folio/acquisition-units": "4.0.0",
@@ -21,7 +21,7 @@
     "@folio/calendar": "9.1.0",
     "@folio/checkin": "8.0.1",
     "@folio/checkout": "9.0.1",
-    "@folio/circulation": "8.0.1",
+    "@folio/circulation": "folio-org/ui-circulation#hebis",
     "@folio/circulation-log": "3.0.0",
     "@folio/courses": "5.4.0",
     "@folio/dashboard": "4.0.1",
