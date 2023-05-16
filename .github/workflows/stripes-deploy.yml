@@ -30,9 +30,9 @@ jobs:
       - name: Set yarn config for FOLIO modules
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
-      - name: Run yarn install
-        run: yarn install --frozen-lockfile
-
+      - name: Get the latest ui-circulation changes from github branch
+        run: yarn upgrade @folio/circulation
+        
       - name: List FOLIO modules 
         run: yarn list --pattern @folio
       
