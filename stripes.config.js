@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'https://orchid-dev-okapi.folio-dev.indexdata.com', 'tenant':'dev1' },
+  okapi: { 'url':'https://orchid-dev-okapi.folio-dev.indexdata.com', 'tenant':'dev2' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
