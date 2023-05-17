@@ -10,7 +10,8 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings"
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings",
+    "deploy": "sh -c 'find $0 -type f -exec gzip \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\; ; aws s3 sync ${0}/ s3://folio-dev-bundles/dev2 --acl public-read --content-encoding gzip --delete'" 
   },
   "dependencies": {
     "@folio/acquisition-units": "4.0.100000123",
