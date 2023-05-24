@@ -31,7 +31,7 @@ jobs:
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
       - name: Get the latest ui-users changes from github
-        run: yarn upgrade @folio/users
+        run: yarn upgrade @folio/remote-sync
         
       #- name: Run yarn install
       #  run: yarn install --frozen-lockfile

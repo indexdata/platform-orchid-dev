@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'https://orchid-dev-okapi.folio-dev.indexdata.com', 'tenant':'dev1' },
+  okapi: { 'url':'https://orchid-dev-okapi.folio-dev.indexdata.com', 'tenant':'dev3' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
@@ -59,6 +59,7 @@ module.exports = {
     '@folio/plugin-find-user' : {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
+    '@folio/remote-sync': {},
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/servicepoints' : {},

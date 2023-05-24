@@ -12,7 +12,7 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "lint": "eslint test/ui-testing",
-    "deploy": "sh -c 'find $0 -type f -exec gzip \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\; ; aws s3 sync ${0}/ s3://folio-dev-bundles/dev1 --acl public-read --content-encoding gzip --delete'"
+    "deploy": "sh -c 'find $0 -type f -exec gzip \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\; ; aws s3 sync ${0}/ s3://folio-dev-bundles/dev3 --acl public-read --content-encoding gzip --delete'"
   },
   "dependencies": {
     "@folio/acquisition-units": "4.0.0",
@@ -21,7 +21,7 @@
     "@folio/calendar": "9.1.0",
     "@folio/checkin": "8.0.1",
     "@folio/checkout": "9.0.1",
-    "@folio/circulation": "folio-org/ui-circulation#demo",
+    "@folio/circulation": "8.0.1",
     "@folio/circulation-log": "3.0.0",
     "@folio/courses": "5.4.0",
     "@folio/dashboard": "4.0.1",
@@ -66,6 +66,7 @@
     "@folio/quick-marc": "6.0.2",
     "@folio/receiving": "3.0.0",
     "@folio/remote-storage": "4.0.0",
+    "@folio/remote-sync": "folio-org/ui-remote-sync#master",
     "@folio/requests": "8.0.2",
     "@folio/servicepoints": "6.3.0",
     "@folio/stripes": "8.0.9",
@@ -73,7 +74,7 @@
     "@folio/stripes-erm-components": "8.0.0",
     "@folio/tags": "7.0.0",
     "@folio/tenant-settings": "7.3.0",
-    "@folio/users": "folio-org/ui-users#demo",
+    "@folio/users": "9.0.3",
     "final-form": "^4.20.7",
     "final-form-arrays": "^3.0.2",
     "moment": "~2.29.0",
