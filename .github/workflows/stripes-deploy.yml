@@ -47,7 +47,7 @@ jobs:
       - name: Build Stripes bundle
         run: yarn build
         env: 
-          NODE_ENV: 'test'
+          NODE_ENV: 'development'
 
       - name: Deploy Stripes bundle to S3
         run: yarn deploy output
