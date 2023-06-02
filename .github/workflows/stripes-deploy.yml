@@ -32,6 +32,7 @@ jobs:
 
       - name: Get the latest ui-users changes from github
         run: yarn upgrade @folio/users
+       
         
       #- name: Run yarn install
       #  run: yarn install --frozen-lockfile
@@ -45,6 +46,8 @@ jobs:
 
       - name: Build Stripes bundle
         run: yarn build
+        env: 
+          NODE_ENV: 'test'
 
       - name: Deploy Stripes bundle to S3
         run: yarn deploy output
