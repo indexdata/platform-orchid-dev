@@ -30,8 +30,8 @@ jobs:
       - name: Set yarn config for FOLIO modules
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
-      - name: Get the latest ui-users changes from github
-        run: yarn upgrade @folio/users
+      - name: Get the latest demo-branch changes from github
+        run: yarn upgrade @folio/checkout @folio/circulation @folio/circulation-log @folio/users
        
         
       #- name: Run yarn install
