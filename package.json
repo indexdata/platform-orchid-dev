@@ -21,7 +21,7 @@
     "@folio/checkin": "8.0.100000578",
     "@folio/checkout": "folio-org/ui-checkout#demo",
     "@folio/circulation": "folio-org/ui-circulation#demo",
-    "@folio/circulation-log": "3.0.100000172",
+    "@folio/circulation-log": "folio-org/ui-circulation-log#demo",
     "@folio/consortia-settings": "1.0.100000126",
     "@folio/courses": "5.4.100000179",
     "@folio/dashboard": "4.1.100000317",
