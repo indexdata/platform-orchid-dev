@@ -404,9 +404,6 @@
   "id" : "edge-caiasoft-2.0.1-SNAPSHOT.32",
   "action" : "enable"
 }, {
-  "id" : "edge-dematic-2.0.1-SNAPSHOT.65",
-  "action" : "enable"
-}, {
   "id" : "mod-inn-reach-3.1.0-SNAPSHOT.326",
   "action" : "enable"
 }, {
