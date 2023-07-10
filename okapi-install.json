@@ -112,7 +112,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-16.1.0-SNAPSHOT-e982e80",
+    "id": "mod-circulation-storage-16.1.0-SNAPSHOT.359",
     "action": "enable"
   },
   {
@@ -184,7 +184,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-audit-2.7.1-SNAPSHOT-76b1917",
+    "id": "mod-audit-2.7.1-SNAPSHOT.152",
     "action": "enable"
   },
   {
@@ -208,7 +208,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-18.3.0-SNAPSHOT-3534755",
+    "id": "mod-feesfines-18.3.0-SNAPSHOT.211",
     "action": "enable"
   },
   {
@@ -216,7 +216,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-24.0.0-SNAPSHOT-d68cbb89c",
+    "id": "mod-circulation-24.0.0-SNAPSHOT.1128",
     "action": "enable"
   },
   {
