@@ -31,8 +31,7 @@ jobs:
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
       - name: Get the latest demo-branch changes from github
-        run: yarn upgrade @folio/checkout; yarn upgrade @folio/circulation; yarn upgrade @folio/circulation-log; yarn upgrade @folio/users
-       
+        run: yarn upgrade @folio/checkout @folio/circulation @folio/circulation-log @folio/users
         
       #- name: Run yarn install
       #  run: yarn install --frozen-lockfile
