@@ -21,7 +21,7 @@
     "@folio/checkin": "8.0.100000599",
     "@folio/checkout": "10.0.100000788",
     "@folio/circulation": "folio-org/ui-circulation#hebis",
-    "@folio/circulation-log": "3.0.100000201",
+    "@folio/circulation-log": "folio-org/ui-circulation-log#hebis",
     "@folio/courses": "5.4.100000216",
     "@folio/dashboard": "4.1.100000366",
     "@folio/data-export": "5.4.100000373",
