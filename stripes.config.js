@@ -5,8 +5,8 @@ module.exports = {
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    aboutInstallDate: "2023-04-05",
-    aboutInstallVersion: "Orchid"
+    aboutInstallDate: "2023-11-13",
+    aboutInstallVersion: "Poppy Snapshot Nov, 23 2023"
   },
   modules: {
     '@folio/acquisition-units': {},
