@@ -2650,9 +2650,10 @@
     react-final-form-arrays "^3.1.1"
     redux-form "^8.0.0"
 
-"@folio/users@folio-org/ui-users#hebis":
-  version "10.0.0"
-  resolved "https://codeload.github.com/folio-org/ui-users/tar.gz/55835fbf4a1ebe91c2e7229be7576efde751051a"
+"@folio/users@10.1.1000004784":
+  version "10.1.1000004784"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-10.1.1000004784.tgz#27bf381d56119a3c97232e444ac33d72f83fba69"
+  integrity sha512-DnwR2/TTz0aqAtvzQgdvATNKMzZ9KlAN+EctPmzdHQk5eWVR3UUb14ZVqDS77VTEAyoSDNltP9adS1givp++qw==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
