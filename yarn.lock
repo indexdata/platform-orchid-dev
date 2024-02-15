@@ -2054,30 +2054,10 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@>=1.3.0":
+"@folio/plugin-find-user@7.0.100000327", "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^6.0.0", "@folio/plugin-find-user@^7.0.0":
   version "7.0.100000327"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-7.0.100000327.tgz#6a852e0543ed6ca8636fe399147abb8b0b63e16e"
   integrity sha512-HU6ypxh4llhIiWG2/8hh5C8lO6y0/+/ww+QuM8b1a+YNRx6+mx6VUuih2B1ynH352XHg9wVQdrQB++VBd1TbIw==
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-user@^6.0.0":
-  version "6.5.100000232"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-6.5.100000232.tgz#47e804891cb169f508bc31216840a1214360474a"
-  integrity sha512-ss6tNFcLPwTzdQItQBgRNvLzSf3lajJ+oK3RfvLB2Nc2KbrdyTofv9JuPiVYH0jfwORSurFFMeU17pbPzk2ZGw==
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-user@^7.0.0":
-  version "7.0.100000378"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-7.0.100000378.tgz#561bc26249bac4aaa2e5bac0d640fc0c8f0976b9"
-  integrity sha512-IV3krpUAL3wkkTmf3PjAGf/QGDjBpFJ0lW+H2UKJ1GSSvgtJNOqQH7KMlE+ChHoRMaMaxYF601qtGSE7ufQqqA==
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -2667,10 +2647,10 @@
     react-final-form-arrays "^3.1.1"
     redux-form "^8.0.0"
 
-"@folio/users@^10.1.1000004784", "@folio/users@^10.1.1000004966":
-  version "10.1.1000004966"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-10.1.1000004966.tgz#a88471eccdf4db0a42fa1421184d4d7c05f34d0e"
-  integrity sha512-KZHo8LOKyPW06qdoHOnnLQ+cTU8djVcm4eEUtHh5Xj7VzGASxc9U5KmeQME5tk7Ok7kmk4dahvsKoNHfxF+ZYw==
+"@folio/users@10.1.1000004784":
+  version "10.1.1000004784"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-10.1.1000004784.tgz#27bf381d56119a3c97232e444ac33d72f83fba69"
+  integrity sha512-DnwR2/TTz0aqAtvzQgdvATNKMzZ9KlAN+EctPmzdHQk5eWVR3UUb14ZVqDS77VTEAyoSDNltP9adS1givp++qw==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
